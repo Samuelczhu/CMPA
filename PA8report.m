@@ -29,6 +29,7 @@ title("I versus V")
 xlabel("Voltage (V)")
 ylabel("Current (A)")
 grid on
+snapnow
 
 figure(2)
 semilogy(V, abs(I))
@@ -36,6 +37,7 @@ title("Semilog |I| versus V")
 xlabel("Voltage (V)")
 ylabel("Current (A)")
 grid on
+snapnow
 
 
 %% Task 2 - Polynomial fitting
@@ -57,6 +59,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "4th order polynomial fit", "8th order polynomial fit")
 grid on
+snapnow
 
 figure(4)
 semilogy(V, abs(I), "-b") 
@@ -69,6 +72,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "4th order polynomial fit", "8th order polynomial fit")
 grid on
+snapnow
 
 
 %% Task 2 Conclusion
@@ -110,6 +114,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Non-linear fit")
 grid on
+snapnow
 
 figure(6)
 semilogy(V, abs(I), "-b")  
@@ -121,6 +126,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Non-linear fit")
 grid on
+snapnow
 
 
 %% Task 3 b)
@@ -149,6 +155,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Non-linear fit")
 grid on
+snapnow
 
 figure(8)
 semilogy(V, abs(I), "-b")  
@@ -160,6 +167,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Non-linear fit")
 grid on
+snapnow
 
 
 %% Task 3 c)
@@ -186,6 +194,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Non-linear fit")
 grid on
+snapnow
 
 figure(10)
 semilogy(V, abs(I), "-b")  
@@ -197,6 +206,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Non-linear fit")
 grid on
+snapnow
 
 %% Task 3 Conclusion
 % The nonlinear fit in general can fit better than the polynomial fit. The
@@ -239,6 +249,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Neural Net model fitting")
 grid on
+snapnow
 
 figure(12)
 semilogy(V, abs(I), "-b")  
@@ -250,6 +261,7 @@ xlabel("Voltage (V)")
 ylabel("Current (A)")
 legend("Current Data", "Neural Net model fitting")
 grid on
+snapnow
 
 %% Task 4 Conclusion
 % The fitting with the Neural Net model fit very well to the curve, and it
